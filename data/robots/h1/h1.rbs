@@ -1,0 +1,856 @@
+RB
+	name pelvis
+	position 0 0.99 0
+	mass 5.983000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.009026 0.053156 0.049168 0.000003 -0.000020 -0.000048
+	mesh robots/h1/meshes/pelvis.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.000037 0.046864 0.000400
+/End_RB
+
+
+RB
+	name left_hip_yaw_link
+	mass 2.829000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.005689 0.003549 0.004554 -0.000345 0.000000 0.000001
+	mesh robots/h1/meshes/left_hip_yaw_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.026197 -0.006647 0.000000
+/End_RB
+
+
+RB
+	name right_hip_yaw_link
+	mass 2.829000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.005689 0.003549 0.004554 0.000345 -0.000000 0.000001
+	mesh robots/h1/meshes/right_hip_yaw_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.026197 -0.006647 0.000000
+/End_RB
+
+
+RB
+	name torso_link
+	mass 17.789000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.409630 0.127850 0.487300 -0.000746 -0.000538 0.002028
+	mesh robots/h1/meshes/torso_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.002797 -0.204840 -0.000489
+	mesh robots/h1/meshes/logo_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.002797 -0.204840 -0.000489
+	collisionSphere 0.077203 -0.004840 0.039511 0.010000
+	collisionSphere -0.082797 -0.004840 0.039511 0.010000
+	collisionSphere 0.077203 -0.004840 -0.040489 0.010000
+	collisionSphere -0.082797 -0.004840 -0.040489 0.010000
+	collisionSphere 0.077203 -0.104840 0.039511 0.010000
+	collisionSphere -0.082797 -0.104840 0.039511 0.010000
+	collisionSphere 0.077203 -0.104840 -0.040489 0.010000
+	collisionSphere -0.082797 -0.104840 -0.040489 0.010000
+	endEffector 0 0.55 0 0.02
+/End_RB
+
+
+RB
+	name left_hip_pitch_link
+	mass 2.920000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.003863 0.004451 0.005595 -0.000010 0.000143 -0.000012
+	mesh robots/h1/meshes/left_hip_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.004724 0.000063 0.007810
+/End_RB
+
+
+RB
+	name right_hip_pitch_link
+	mass 2.920000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.003863 0.004451 0.005595 0.000010 -0.000143 -0.000012
+	mesh robots/h1/meshes/right_hip_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.004724 0.000063 0.007810
+/End_RB
+
+
+RB
+	name left_shoulder_pitch_link
+	mass 1.327000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.000396 0.000532 0.000587 -0.000013 -0.000020 -0.000002
+	mesh robots/h1/meshes/left_shoulder_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.560986 -0.430459 -0.560986 -0.430459 -0.059888 -0.009939 -0.003053
+/End_RB
+
+
+RB
+	name right_shoulder_pitch_link
+	mass 1.327000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.000396 0.000532 0.000587 0.000013 0.000020 -0.000002
+	mesh robots/h1/meshes/right_shoulder_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.430459 -0.560986 -0.430459 -0.560986 0.059888 -0.009939 -0.003053
+/End_RB
+
+
+RB
+	name left_hip_roll_link
+	mass 4.962000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.047955 0.008915 0.046306 0.000288 -0.000323 -0.001200
+	mesh robots/h1/meshes/left_hip_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.008576 0.194509 -0.004171
+/End_RB
+
+
+RB
+	name right_hip_roll_link
+	mass 4.962000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.047955 0.008915 0.046306 -0.000288 0.000323 -0.001200
+	mesh robots/h1/meshes/right_hip_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.008576 0.194509 -0.004171
+/End_RB
+
+
+RB
+	name left_shoulder_roll_link
+	mass 1.393000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.001935 0.000618 0.001841 0.000000 0.000000 -0.000483
+	mesh robots/h1/meshes/left_shoulder_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.000001 0.106090 0.030932
+/End_RB
+
+
+RB
+	name right_shoulder_roll_link
+	mass 1.393000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.001935 0.000618 0.001841 -0.000000 -0.000000 -0.000483
+	mesh robots/h1/meshes/right_shoulder_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.000001 0.106090 0.030932
+/End_RB
+
+
+RB
+	name left_knee_link
+	mass 3.839000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.039042 0.005030 0.039002 -0.000019 -0.000072 -0.000795
+	mesh robots/h1/meshes/left_knee_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.000121 0.168936 -0.000179
+	collisionSphere 0.019879 0.068936 0.019821 0.010000
+	collisionSphere -0.020121 0.068936 0.019821 0.010000
+	collisionSphere 0.019879 0.068936 -0.020179 0.010000
+	collisionSphere -0.020121 0.068936 -0.020179 0.010000
+	collisionSphere 0.019879 -0.131064 0.019821 0.010000
+	collisionSphere -0.020121 -0.131064 0.019821 0.010000
+	collisionSphere 0.019879 -0.131064 -0.020179 0.010000
+	collisionSphere -0.020121 -0.131064 -0.020179 0.010000
+/End_RB
+
+
+RB
+	name right_knee_link
+	mass 3.839000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.039042 0.005030 0.039002 0.000019 0.000072 -0.000795
+	mesh robots/h1/meshes/right_knee_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.000121 0.168936 -0.000179
+	collisionSphere 0.020121 0.068936 0.019821 0.010000
+	collisionSphere -0.019879 0.068936 0.019821 0.010000
+	collisionSphere 0.020121 0.068936 -0.020179 0.010000
+	collisionSphere -0.019879 0.068936 -0.020179 0.010000
+	collisionSphere 0.020121 -0.131064 0.019821 0.010000
+	collisionSphere -0.019879 -0.131064 0.019821 0.010000
+	collisionSphere 0.020121 -0.131064 -0.020179 0.010000
+	collisionSphere -0.019879 -0.131064 -0.020179 0.010000
+/End_RB
+
+
+RB
+	name left_shoulder_yaw_link
+	mass 1.505000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004314 0.000658 0.004199 0.000093 -0.000018 0.000184
+	mesh robots/h1/meshes/left_shoulder_yaw_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.001128 0.001128 -0.004583
+/End_RB
+
+
+RB
+	name right_shoulder_yaw_link
+	mass 1.505000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004314 0.000658 0.004199 -0.000093 0.000018 0.000184
+	mesh robots/h1/meshes/right_shoulder_yaw_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.001128 0.001128 -0.004583
+/End_RB
+
+
+RB
+	name left_ankle_pitch_link
+	mass 0.102000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.000022 0.000013 0.000024 0.000000 0.000000 0.000000
+	mesh robots/h1/meshes/left_ankle_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.000000 0.010794 0.000294
+/End_RB
+
+
+RB
+	name right_ankle_pitch_link
+	mass 0.102000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.000022 0.000013 0.000024 0.000000 0.000000 0.000000
+	mesh robots/h1/meshes/right_ankle_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.000000 0.010794 0.000294
+/End_RB
+
+
+RB
+	name left_elbow_pitch_link
+	mass 2.173797
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.017842 0.017702 0.001062 0.000006 0.000616 0.000082
+	mesh robots/h1/meshes/left_elbow_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.032630 0.010779 -0.170804
+	mesh robots/h1/meshes/left_elbow_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.000270 -0.000221 -0.049804
+	mesh robots/h1/meshes/left_wrist_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.000270 -0.000221 0.035196
+	mesh robots/h1/meshes/wrist_yaw_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.000270 -0.000221 0.055196
+	mesh robots/h1/meshes/L_hand_base_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.707107 -0.707107 -0.000000 0.000000 -0.000270 -0.000221 0.109196
+	mesh robots/h1/meshes/link15_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.694658 -0.719340 -0.000000 -0.000000 0.000016 0.032047 0.245726
+	mesh robots/h1/meshes/link16_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.694658 -0.719340 -0.000000 -0.000000 -0.002407 0.032166 0.277783
+	mesh robots/h1/meshes/link17_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.707107 -0.707107 -0.000000 0.000000 0.000016 0.012729 0.246296
+	mesh robots/h1/meshes/link18_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.707107 -0.707107 -0.000000 0.000000 -0.002407 0.011729 0.278337
+	mesh robots/h1/meshes/link21_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.743145 -0.669131 -0.000000 0.000000 0.000016 -0.025709 0.244906
+	mesh robots/h1/meshes/link22_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.743145 -0.669131 -0.000000 0.000000 -0.002407 -0.030053 0.276667
+	mesh robots/h1/meshes/link19_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.725374 -0.688355 -0.000000 0.000000 0.000016 -0.006508 0.246106
+	mesh robots/h1/meshes/link20_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.725374 -0.688355 -0.000000 0.000000 -0.002407 -0.009184 0.278051
+	mesh robots/h1/meshes/link11_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.707105 0.000001 0.000001 0.707108 -0.017230 0.020229 0.178296
+	mesh robots/h1/meshes/link12_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.455910 -0.455910 -0.540506 0.540505 -0.027054 0.030216 0.169396
+	mesh robots/h1/meshes/link13_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.455910 -0.455910 -0.540506 0.540505 -0.033695 0.073790 0.203949
+	mesh robots/h1/meshes/link14_L.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.455910 -0.455910 -0.540506 0.540505 -0.035926 0.093950 0.214105
+/End_RB
+
+
+RB
+	name right_elbow_pitch_link
+	mass 2.173790
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.017836 0.017698 0.001058 -0.000001 -0.000648 0.000087
+	mesh robots/h1/meshes/right_elbow_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.031227 0.010789 -0.170800
+	mesh robots/h1/meshes/right_elbow_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.001673 -0.000211 -0.049800
+	mesh robots/h1/meshes/right_wrist_pitch_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.001673 -0.000211 0.035200
+	mesh robots/h1/meshes/wrist_yaw_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.001673 -0.000211 0.055200
+	mesh robots/h1/meshes/R_hand_base_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 0.000000 -0.707107 0.707107 0.001673 -0.000211 0.109200
+	mesh robots/h1/meshes/link15_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 -0.000000 -0.719335 -0.694663 0.001388 0.032057 0.245730
+	mesh robots/h1/meshes/link16_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 -0.000000 -0.719335 -0.694663 0.004002 0.032175 0.277771
+	mesh robots/h1/meshes/link17_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.000000 -0.000000 -0.707104 -0.707109 0.001388 0.012739 0.246300
+	mesh robots/h1/meshes/link18_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.000000 -0.000000 -0.707104 -0.707109 0.003811 0.011739 0.278341
+	mesh robots/h1/meshes/link21_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 0.000000 0.669141 0.743136 0.001388 -0.025699 0.244910
+	mesh robots/h1/meshes/link22_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 0.000000 0.669141 0.743136 0.003811 -0.030041 0.276671
+	mesh robots/h1/meshes/link19_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 0.000000 0.688343 0.725386 0.001388 -0.006498 0.246110
+	mesh robots/h1/meshes/link20_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 0.000000 0.688343 0.725386 0.003811 -0.009174 0.278054
+	mesh robots/h1/meshes/link11_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707108 -0.000001 0.000001 0.707105 0.018633 0.020239 0.178300
+	mesh robots/h1/meshes/link12_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.565493 -0.565494 -0.424520 -0.424520 0.029525 0.029049 0.169050
+	mesh robots/h1/meshes/link13_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.565493 -0.565494 -0.424520 -0.424520 0.041058 0.071591 0.203603
+	mesh robots/h1/meshes/link14_R.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.565493 -0.565494 -0.424520 -0.424520 0.045558 0.091369 0.213759
+/End_RB
+
+
+RB
+	name left_ankle_roll_link
+	mass 0.747000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.003435 0.003583 0.000649 0.000000 0.000000 0.000158
+	mesh robots/h1/meshes/left_ankle_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.000000 0.015973 -0.029589
+	collisionSphere -0.038000 -0.019027 -0.104589 0.010000
+	collisionSphere 0.038000 -0.019027 -0.104589 0.010000
+	collisionSphere -0.038000 -0.019027 -0.114589 0.010000
+	collisionSphere 0.038000 -0.019027 -0.114589 0.010000
+	collisionSphere -0.038000 -0.029027 -0.104589 0.010000
+	collisionSphere 0.038000 -0.029027 -0.104589 0.010000
+	collisionSphere -0.038000 -0.029027 -0.114589 0.010000
+	collisionSphere 0.038000 -0.029027 -0.114589 0.010000
+	collisionSphere -0.021000 -0.019027 0.145411 0.010000
+	collisionSphere 0.021000 -0.019027 0.145411 0.010000
+	collisionSphere -0.021000 -0.019027 0.135411 0.010000
+	collisionSphere 0.021000 -0.019027 0.135411 0.010000
+	collisionSphere -0.021000 -0.029027 0.145411 0.010000
+	collisionSphere 0.021000 -0.029027 0.145411 0.010000
+	collisionSphere -0.021000 -0.029027 0.135411 0.010000
+	collisionSphere 0.021000 -0.029027 0.135411 0.010000
+	collisionSphere -0.033000 -0.029027 0.102411 0.010000
+	collisionSphere -0.043000 -0.029027 0.102411 0.010000
+	collisionSphere -0.033000 -0.029027 -0.107589 0.010000
+	collisionSphere -0.043000 -0.029027 -0.107589 0.010000
+	collisionSphere -0.033000 -0.019027 0.102411 0.010000
+	collisionSphere -0.043000 -0.019027 0.102411 0.010000
+	collisionSphere -0.033000 -0.019027 -0.107589 0.010000
+	collisionSphere -0.043000 -0.019027 -0.107589 0.010000
+	collisionSphere 0.043000 -0.029027 0.102411 0.010000
+	collisionSphere 0.033000 -0.029027 0.102411 0.010000
+	collisionSphere 0.043000 -0.029027 -0.107589 0.010000
+	collisionSphere 0.033000 -0.029027 -0.107589 0.010000
+	collisionSphere 0.043000 -0.019027 0.102411 0.010000
+	collisionSphere 0.033000 -0.019027 0.102411 0.010000
+	collisionSphere 0.043000 -0.019027 -0.107589 0.010000
+	collisionSphere 0.033000 -0.019027 -0.107589 0.010000
+
+    endEffector -0.03 -0.03 -0.1 0.2
+    endEffector 0.03 -0.03 -0.1 0.2
+    endEffector -0.03 -0.03 0.14 0.2
+    endEffector 0.03 -0.03 0.14 0.2     
+
+/End_RB
+
+
+RB
+	name right_ankle_roll_link
+	mass 0.747000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.003435 0.003583 0.000649 0.000000 0.000000 0.000158
+	mesh robots/h1/meshes/right_ankle_roll_link.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 0.000000 0.015973 -0.029589
+	collisionSphere -0.038000 -0.019027 -0.104589 0.010000
+	collisionSphere 0.038000 -0.019027 -0.104589 0.010000
+	collisionSphere -0.038000 -0.019027 -0.114589 0.010000
+	collisionSphere 0.038000 -0.019027 -0.114589 0.010000
+	collisionSphere -0.038000 -0.029027 -0.104589 0.010000
+	collisionSphere 0.038000 -0.029027 -0.104589 0.010000
+	collisionSphere -0.038000 -0.029027 -0.114589 0.010000
+	collisionSphere 0.038000 -0.029027 -0.114589 0.010000
+	collisionSphere -0.021000 -0.019027 0.145411 0.010000
+	collisionSphere 0.021000 -0.019027 0.145411 0.010000
+	collisionSphere -0.021000 -0.019027 0.135411 0.010000
+	collisionSphere 0.021000 -0.019027 0.135411 0.010000
+	collisionSphere -0.021000 -0.029027 0.145411 0.010000
+	collisionSphere 0.021000 -0.029027 0.145411 0.010000
+	collisionSphere -0.021000 -0.029027 0.135411 0.010000
+	collisionSphere 0.021000 -0.029027 0.135411 0.010000
+	collisionSphere -0.033000 -0.029027 0.102411 0.010000
+	collisionSphere -0.043000 -0.029027 0.102411 0.010000
+	collisionSphere -0.033000 -0.029027 -0.107589 0.010000
+	collisionSphere -0.043000 -0.029027 -0.107589 0.010000
+	collisionSphere -0.033000 -0.019027 0.102411 0.010000
+	collisionSphere -0.043000 -0.019027 0.102411 0.010000
+	collisionSphere -0.033000 -0.019027 -0.107589 0.010000
+	collisionSphere -0.043000 -0.019027 -0.107589 0.010000
+	collisionSphere 0.043000 -0.029027 0.102411 0.010000
+	collisionSphere 0.033000 -0.029027 0.102411 0.010000
+	collisionSphere 0.043000 -0.029027 -0.107589 0.010000
+	collisionSphere 0.033000 -0.029027 -0.107589 0.010000
+	collisionSphere 0.043000 -0.019027 0.102411 0.010000
+	collisionSphere 0.033000 -0.019027 0.102411 0.010000
+	collisionSphere 0.043000 -0.019027 -0.107589 0.010000
+	collisionSphere 0.033000 -0.019027 -0.107589 0.010000
+
+    endEffector -0.03 -0.03 -0.1 0.2
+    endEffector 0.03 -0.03 -0.1 0.2
+    endEffector -0.03 -0.03 0.14 0.2
+    endEffector 0.03 -0.03 0.14 0.2     
+
+/End_RB
+
+
+	RBJoint
+		jointAxis 0.000000 1.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.430000 0.430000
+		jointMaxSpeed 23.000000
+		jointMaxTorque 200.000000
+		name left_hip_yaw_joint
+		parent pelvis
+		child left_hip_yaw_link
+		jointCPos 0.026197 -0.006647 0.000000
+		jointPPos 0.087463 -0.116336 0.000400
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 1.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.430000 0.430000
+		jointMaxSpeed 23.000000
+		jointMaxTorque 200.000000
+		name right_hip_yaw_joint
+		parent pelvis
+		child right_hip_yaw_link
+		jointCPos -0.026197 -0.006647 0.000000
+		jointPPos -0.087537 -0.116336 0.000400
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 1.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -2.350000 2.350000
+		jointMaxSpeed 23.000000
+		jointMaxTorque 200.000000
+		name torso_joint
+		parent pelvis
+		child torso_link
+		jointCPos -0.002797 -0.204840 -0.000489
+		jointPPos -0.000037 0.046864 0.000400
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -3.140000 2.500000
+		jointMaxSpeed 23.000000
+		jointMaxTorque 200.000000
+		name left_hip_pitch_joint
+		parent left_hip_yaw_link
+		child left_hip_pitch_link
+		jointCPos 0.004724 0.000063 0.007810
+		jointPPos 0.101697 -0.006647 0.000000
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -3.140000 2.500000
+		jointMaxSpeed 23.000000
+		jointMaxTorque 200.000000
+		name right_hip_pitch_joint
+		parent right_hip_yaw_link
+		child right_hip_pitch_link
+		jointCPos -0.004724 0.000063 0.007810
+		jointPPos -0.101697 -0.006647 0.000000
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -3.140000 1.570000
+		jointMaxSpeed 9.000000
+		jointMaxTorque 40.000000
+		name left_shoulder_pitch_joint
+		parent torso_link
+		child left_shoulder_pitch_link
+		jointCPos -0.059888 -0.009939 -0.003053
+		jointPPos 0.145263 0.218490 -0.000489
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -3.140000 1.570000
+		jointMaxSpeed 9.000000
+		jointMaxTorque 40.000000
+		name right_shoulder_pitch_joint
+		parent torso_link
+		child right_shoulder_pitch_link
+		jointCPos 0.059888 -0.009939 -0.003053
+		jointPPos -0.150857 0.218490 -0.000489
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.430000 3.140000
+		jointMaxSpeed 23.000000
+		jointMaxTorque 200.000000
+		name left_hip_roll_joint
+		parent left_hip_pitch_link
+		child left_hip_roll_link
+		jointCPos 0.008576 0.194509 -0.004171
+		jointPPos 0.004724 0.000063 0.007810
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -3.140000 0.430000
+		jointMaxSpeed 23.000000
+		jointMaxTorque 200.000000
+		name right_hip_roll_joint
+		parent right_hip_pitch_link
+		child right_hip_roll_link
+		jointCPos -0.008576 0.194509 -0.004171
+		jointPPos -0.004724 0.000063 0.007810
+	/End_Joint
+
+
+	RBJoint
+		jointAxis -0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.380000 3.400000
+		jointMaxSpeed 9.000000
+		jointMaxTorque 40.000000
+		name left_shoulder_roll_joint
+		parent left_shoulder_pitch_link
+		child left_shoulder_roll_link
+		jointCPos 0.000001 0.106090 0.030932
+		jointPPos 0.001551 0.000311 0.031147
+	/End_Joint
+
+
+	RBJoint
+		jointAxis -0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -3.400000 0.380000
+		jointMaxSpeed 9.000000
+		jointMaxTorque 40.000000
+		name right_shoulder_roll_joint
+		parent right_shoulder_pitch_link
+		child right_shoulder_roll_link
+		jointCPos -0.000001 0.106090 0.030932
+		jointPPos -0.001551 0.000311 0.031147
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.260000 2.050000
+		jointMaxSpeed 14.000000
+		jointMaxTorque 300.000000
+		name left_knee_joint
+		parent left_hip_roll_link
+		child left_knee_link
+		jointCPos -0.000121 0.168936 -0.000179
+		jointPPos 0.008576 -0.205491 -0.004171
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.260000 2.050000
+		jointMaxSpeed 14.000000
+		jointMaxTorque 300.000000
+		name right_knee_joint
+		parent right_hip_roll_link
+		child right_knee_link
+		jointCPos 0.000121 0.168936 -0.000179
+		jointPPos -0.008576 -0.205491 -0.004171
+	/End_Joint
+
+
+	RBJoint
+		jointAxis -0.000000 1.000000 -0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -2.660000 3.010000
+		jointMaxSpeed 20.000000
+		jointMaxTorque 18.000000
+		name left_shoulder_yaw_joint
+		parent left_shoulder_roll_link
+		child left_shoulder_yaw_link
+		jointCPos -0.001128 0.001128 -0.004583
+		jointPPos 0.000001 -0.039510 -0.003268
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 1.000000 -0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -3.010000 2.660000
+		jointMaxSpeed 20.000000
+		jointMaxTorque 18.000000
+		name right_shoulder_yaw_joint
+		parent right_shoulder_roll_link
+		child right_shoulder_yaw_link
+		jointCPos 0.001128 0.001128 -0.004583
+		jointPPos -0.000001 -0.039510 -0.003268
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.897334 0.523598
+		jointMaxSpeed 9.000000
+		jointMaxTorque 60.000000
+		name left_ankle_pitch_joint
+		parent left_knee_link
+		child left_ankle_pitch_link
+		jointCPos 0.000000 0.010794 0.000294
+		jointPPos -0.000121 -0.231064 -0.000179
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.897334 0.523598
+		jointMaxSpeed 9.000000
+		jointMaxTorque 60.000000
+		name right_ankle_pitch_joint
+		parent right_knee_link
+		child right_ankle_pitch_link
+		jointCPos 0.000000 0.010794 0.000294
+		jointPPos 0.000121 -0.231064 -0.000179
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.950000 3.180000
+		jointMaxSpeed 20.000000
+		jointMaxTorque 18.000000
+		name left_elbow_pitch_joint
+		parent left_shoulder_yaw_link
+		child left_elbow_pitch_link
+		jointCPos 0.032630 0.010779 -0.170804
+		jointPPos 0.031772 -0.180872 0.001417
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 -0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.950000 3.180000
+		jointMaxSpeed 20.000000
+		jointMaxTorque 18.000000
+		name right_elbow_pitch_joint
+		parent right_shoulder_yaw_link
+		child right_elbow_pitch_link
+		jointCPos -0.031227 0.010789 -0.170800
+		jointPPos -0.031772 -0.180872 0.001417
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.261799 0.261799
+		jointMaxSpeed 9.000000
+		jointMaxTorque 40.000000
+		name left_ankle_roll_joint
+		parent left_ankle_pitch_link
+		child left_ankle_roll_link
+		jointCPos 0.000000 0.015973 -0.029589
+		jointPPos 0.000000 -0.009206 0.000294
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -0.261799 0.261799
+		jointMaxSpeed 9.000000
+		jointMaxTorque 40.000000
+		name right_ankle_roll_joint
+		parent right_ankle_pitch_link
+		child right_ankle_roll_link
+		jointCPos 0.000000 0.015973 -0.029589
+		jointPPos 0.000000 -0.009206 0.000294
+	/End_Joint
+
+
