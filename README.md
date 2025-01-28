@@ -10,12 +10,3 @@
 
 ## Deployment
 
-### Server
-### Branches
-
-* Master:
-* Feature:
-* Bugfix:
-* etc...
-
-## Additional Documentation and Acknowledgments
